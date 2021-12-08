@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      position:absolute;
+      top: 84%;
+      left: 12.5%; 
+      display: flex;
+      font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background: hsl(217, 54%, 11%);
+      
+    }
+    .fondo{
+      position: absolute;
+      left: 22%;
+      top: 7%;
+      height: 800px;
+      width: 600px;
+      background-image: linear-gradient(var( hsl(216, 50%, 16%)),hsl(217, 54%, 11%));
+      transition: 1s;
+      border-radius: 3%;
+    }
+    .seccion{
+      position: absolute;
+      left: 25%;
+      top: 10%;
+      height: 600px;
+      width: 400px;
+      background: hsl(216, 50%, 16%);
+      border-radius: 3%;
+    }
+    img{
+      position:absolute;
+      top: 5%;
+      left: 12.5%;
+      height: 300px;
+      width: 300px;
+      overflow: hidden;
+      border-radius: 3%;
+    }
+    .apoyo{
+      display: flex;
+      position: absolute;
+      top: 72%;
+      left: 12.5%;
+      align-items: center;
+    }
+    h1{
+      position: absolute;
+      left: 12.5;
+      top: 55%;
+      left: 12.5%;
+      color: white;
+    }
+    p{
+      width: 300px;
+      position: absolute;
+      left: 12.5;
+      top: 62.5%;
+      left: 12.5%;
+      color: silver;
+    }
+    .cero{
+      width: 150px;
+      font-size: 20px;
+      color: skyblue;
+    }
+    .days{
+      width: 150px;
+      color: silver;
+      margin-left: 75px;
+    }
+    .creation{
+      border-top: 1px solid hsl(215, 32%, 27%);
+      top: 75%;
+      left: 12.5%;
+      color: silver;
+    }
+    .avt{
+      width: 40px;
+      height: 40px;
+    }
+    .web{
+      position: absolute;
+      width: 150;
+    }
+    .by{
+      top: 90%;
+      position: absolute;
+      width: 120;
+    }
+  </style>
+</head>
+<body>
+  <section class="fondo"></section>
+  <section class="seccion">
+    <img src="./images/image-equilibrium.jpg" alt="Equilibrium">
+    <h1>Equilibrium #3429</h1>
+    <p>Our Equilibrium collection promotes balance and calm.</p>
+    <div class="apoyo">
+      <div class="cero">0.041 ETH</div>
+      <div class="days">3 days left</div>
+    </div>
+    <p class="creation">Creation of Jules Wyvern</p>
+    <div class="attribution">
+      <img class="avt" src="./images/image-avatar.png" alt="avatar">
+      <p class="web">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</p>  
+    </div>
+    <p class="by">Coded by <a href="#">Alejandro Vasquez</p>
+  </section>
+  
+</body>
+</html>
